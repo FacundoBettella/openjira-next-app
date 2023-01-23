@@ -5,7 +5,7 @@ import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 
 export const Navbar = () => {
     return (
-        <AppBar position='sticky' elevation={0}>
+        <AppBar position='sticky'>
             <Toolbar>
                 <IconButton
                     size="large"
@@ -13,7 +13,7 @@ export const Navbar = () => {
                 >
                     <MenuOutlinedIcon />
                 </IconButton>
-                <Typography variant="h2">
+                <Typography variant="h6">
                     OpenJira
                 </Typography>
             </Toolbar>
